@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Persons" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:title="MTN MOMO" />
+        <item
+            android:id="@+id/nav_investors"
+            android:icon="@drawable/ic_baseline_incestors_24"
+            android:title="Investors" />
+        <item
+            android:id="@+id/nav_insurance"
+            android:icon="@drawable/ic_baseline_comment_bank_24"
+            android:title="Insurance" />
+        <item
+            android:id="@+id/nav_career"
+            android:icon="@drawable/ic_baseline_careerr_board_24"
+            android:title="Career" />
+    </group>
+</menu>
